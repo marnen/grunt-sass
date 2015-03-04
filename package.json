@@ -31,7 +31,9 @@
   ],
   "dependencies": {
     "each-async": "^1.0.0",
-    "node-sass": "^2.0.1",
+    "node-sass": "^2.0.1 // waiting for https://github.com/sass/node-sass/pull/732",
+    "node-sass": "// see also https://github.com/sass/node-sass/issues/731",
+    "node-sass": "sass/node-sass#a54c1277fffdc81d62f259d96768f19fa34346e4",
     "object-assign": "^2.0.0"
   },
   "devDependencies": {
